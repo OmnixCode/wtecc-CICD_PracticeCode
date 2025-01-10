@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: |
-          python 0m pip install --ugrade pip 
+          python -m pip install --ugrade pip 
           pip install -r requirements.txt
       - name: Lint with flake8
         run: |
